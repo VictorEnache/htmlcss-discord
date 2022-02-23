@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /*** color palette ***/
+    --nav_links:white;
+    --login_button:white;
+    --header_heading:white;
+    --download_button_page_top:white;
+    --open_discord_button:#23272A;
+    --main_headings:#23272A;
+    --main_text:#595C5E;
+    --download_button_page_bottom:#8EA1E1;
+    --footer_heading:#7289DA;
+    --first_child_footer_links:#6E83CF;
+    --registration_button:#8EA1E1;
+}
+
+link{
+    text-decoration: none;
+}
