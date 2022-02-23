@@ -10,7 +10,7 @@
     /* color palette */
     --nav_links:white;
     --login_button:white;
-    --header_heading:white;
+    --header_text:white;
     --download_button_page_top:white;
     --open_discord_button:#23272A;
     --main_headings:#23272A;
@@ -34,8 +34,8 @@ a{
 
 .principal_block{
     width: 1200px;
-    height: 600px;
-    background-color: #6E83CF;
+    /* height: 600px;
+    background-color: #6E83CF; */
     margin: auto;
 }
 
@@ -48,6 +48,17 @@ a{
 }
 /*** /general rules ***/
 
+#site_header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+#site_navbar{
+   padding-top: 1.4rem;
+   padding-bottom: 1.4rem;
+   font-size: 0.8rem;
+    
+}
 
 #nav_logo, 
 #nav_login{
@@ -59,10 +70,6 @@ a{
     text-align: center;
 }
 
-#site_navbar{
-   padding-top: 1.4rem;
-    
-}
 
 #nav_links,
 #nav_login{
@@ -78,4 +85,42 @@ a{
     border: none;
     padding: 0.6rem 0.8rem;
     border-radius: 1.5rem;
+}
+
+#header_main{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-top: 9rem;
+    padding-bottom: 10rem;
+    color: var(--header_text);
+}
+
+#header_main button{
+    border: none;
+    padding: 0.8rem 1.2rem;
+    border-radius: 1.5rem;
+    
+}
+
+#header_main h1{
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+}
+
+#header_main p{
+    margin-bottom: 1.2rem;
+    line-height: 1.6rem;
+    
+}
+
+#download_page_top{
+    margin-right: 1.2rem;
+    background-color: var(--download_button_page_top);
+    color: var(--main_text);
+}
+
+#open_discord{
+    background-color: var(--open_discord_button);
+    color: var(--header_text);
 }
