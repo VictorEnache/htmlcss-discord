@@ -129,10 +129,9 @@ button{
 
 /*** /site_header properties ***/
 
-/*** /site_main properties ***/
+/* site_main properties */
 #site_main section{
-    background-color: antiquewhite; /* ------------------------------------------- */
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid black; /* serve solo per distinguere le sezzioni, va tolto a fine lavoro */
 }
 
 .img_left .content, .img_right .content{
@@ -202,3 +201,39 @@ width: 58%;
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
 }
+/*** /site_main properties ***/
+
+/* site_footer properties */
+footer{
+    background-color: antiquewhite;
+}
+
+#site_footer .principal_block>div{
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.social{
+    width: 36%;
+}
+
+.footer_links{
+    width:16%;
+}
+
+#site_footer ul{
+    list-style: none;
+    line-height: 2rem;
+    color: var(--nav_links);
+}
+
+#site_footer li:first-of-type{
+    color: var(--first_child_footer_links);
+}
+
+#site_footer h3{
+    font-size: 1.8rem;
+    padding-right: 6rem;
+    color: var(--footer_heading);
+}
+
