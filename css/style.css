@@ -131,9 +131,6 @@ button{
 /*** /site_header properties ***/
 
 /* site_main properties */
-#site_main section{
-    border-bottom: 1px solid black; /* serve solo per distinguere le sezzioni, va tolto a fine lavoro */
-}
 
 .img_left .content, .img_right .content{
     padding-top:8rem;
