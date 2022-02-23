@@ -19,6 +19,19 @@
     --registration_button:#8EA1E1;
 }
 
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
 link{
     text-decoration: none;
+}
+
+.principal_blocks{
+    width: 1200px;
+    height: 600px;
+    background-color: #6E83CF;
+    margin: auto;
 }
