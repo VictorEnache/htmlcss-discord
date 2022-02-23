@@ -48,6 +48,7 @@ a{
 }
 /*** /general rules ***/
 
+/* site_header properties */
 #site_header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -118,9 +119,48 @@ a{
     margin-right: 1.2rem;
     background-color: var(--download_button_page_top);
     color: var(--main_text);
+    font-weight: 500;
 }
 
 #open_discord{
     background-color: var(--open_discord_button);
     color: var(--header_text);
+}
+
+/*** /site_header properties ***/
+
+/*** /site_main properties ***/
+#site_main section{
+    background-color: antiquewhite; /* ------------------------------------------- */
+    border-bottom: 1px solid black;
+}
+
+.content{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.content img{
+width: 58%;
+}
+.section_text.float_left{
+    padding-left: 8rem;
+    width: 42%;
+    padding-top: 2rem;
+}
+
+.section_text h2{
+    font-size: 2.8rem;
+    line-height: 3.8rem;
+    margin-bottom: 2rem;
+}
+
+.section_text p{
+    line-height: 1.6rem;
+}
+
+.section_text.float_right{
+    padding-right: 8rem;
+    width: 42%;
+    padding-top: 2rem;
 }
