@@ -97,7 +97,7 @@ a{
     color: var(--header_text);
 }
 
-#header_main button{
+button{
     border: none;
     padding: 0.8rem 1.2rem;
     border-radius: 1.5rem;
@@ -135,9 +135,14 @@ a{
     border-bottom: 1px solid black;
 }
 
-.content{
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+.img_left .content, .img_right .content{
+    padding-top:8rem;
+    padding-bottom: 8rem
+}
+
+.img_bottom .content{
+    padding-top:8rem;
+    padding-bottom: 4rem;
 }
 
 .content img{
@@ -153,14 +158,47 @@ width: 58%;
     font-size: 2.8rem;
     line-height: 3.8rem;
     margin-bottom: 2rem;
+    color: var(--main_headings);
 }
 
 .section_text p{
     line-height: 1.6rem;
+    color: var(--main_text);
 }
 
 .section_text.float_right{
     padding-right: 8rem;
     width: 42%;
     padding-top: 2rem;
+}
+
+.img_bottom{
+    text-align: center;
+}
+
+.img_bottom .section_text{
+    width: 90%;
+    margin: auto;
+}
+
+.img_bottom img{
+    width: 100%;
+}
+
+.call_to_action{
+    background-image: url(../img/stars.svg);
+    display: inline-block;
+    padding: 2.5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.call_to_action button{
+    background-color: var(--download_button_page_bottom);
+    color: white;
+}
+
+.content h3{
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
 }
