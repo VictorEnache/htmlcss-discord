@@ -14,6 +14,7 @@
     --download_button_page_top:white;
     --open_discord_button:#23272A;
     --main_headings:#23272A;
+    --footer:#23272A;
     --main_text:#595C5E;
     --download_button_page_bottom:#8EA1E1;
     --footer_heading:#7289DA;
@@ -192,7 +193,7 @@ width: 58%;
     background-repeat: no-repeat;
 }
 
-.call_to_action button{
+.call_to_action button, footer button{
     background-color: var(--download_button_page_bottom);
     color: white;
 }
@@ -205,12 +206,12 @@ width: 58%;
 
 /* site_footer properties */
 footer{
-    background-color: antiquewhite;
+    background-color: var(--footer);
 }
 
 .foot_container{
     padding-bottom: 2rem;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--first_child_footer_links);
 }
 
 .social{
