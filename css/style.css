@@ -243,3 +243,13 @@ footer .principal_block{
     padding-top: 6rem;
     padding-bottom: 6rem;
 }
+
+.language{
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.language img{
+    width: 1rem;
+}
