@@ -208,8 +208,7 @@ footer{
     background-color: antiquewhite;
 }
 
-#site_footer .principal_block>div{
-    padding-top: 4rem;
+.foot_container{
     padding-bottom: 2rem;
     border-bottom: 1px solid black;
 }
@@ -238,3 +237,11 @@ footer{
     color: var(--footer_heading);
 }
 
+.last_footer_section{
+    padding-top: 2rem;
+}
+
+footer .principal_block{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
